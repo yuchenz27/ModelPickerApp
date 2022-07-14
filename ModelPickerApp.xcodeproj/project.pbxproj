@@ -12,6 +12,10 @@
 		4BFDE675287FFB65009E5E32 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 4BFDE674287FFB65009E5E32 /* Experience.rcproject */; };
 		4BFDE677287FFB65009E5E32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BFDE676287FFB65009E5E32 /* Assets.xcassets */; };
 		4BFDE67A287FFB65009E5E32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BFDE679287FFB65009E5E32 /* Preview Assets.xcassets */; };
+		4BFDE685288005C5009E5E32 /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4BFDE681288005C5009E5E32 /* gramophone.usdz */; };
+		4BFDE686288005C5009E5E32 /* toy_car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4BFDE682288005C5009E5E32 /* toy_car.usdz */; };
+		4BFDE687288005C5009E5E32 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4BFDE683288005C5009E5E32 /* toy_biplane.usdz */; };
+		4BFDE688288005C5009E5E32 /* toy_drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4BFDE684288005C5009E5E32 /* toy_drummer.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		4BFDE674287FFB65009E5E32 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		4BFDE676287FFB65009E5E32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BFDE679287FFB65009E5E32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BFDE681288005C5009E5E32 /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = gramophone.usdz; path = ../../../../Assets/gramophone.usdz; sourceTree = "<group>"; };
+		4BFDE682288005C5009E5E32 /* toy_car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_car.usdz; path = ../../../../Assets/toy_car.usdz; sourceTree = "<group>"; };
+		4BFDE683288005C5009E5E32 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_biplane.usdz; path = ../../../../Assets/toy_biplane.usdz; sourceTree = "<group>"; };
+		4BFDE684288005C5009E5E32 /* toy_drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_drummer.usdz; path = ../../../../Assets/toy_drummer.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,7 @@
 		4BFDE66F287FFB65009E5E32 /* ModelPickerApp */ = {
 			isa = PBXGroup;
 			children = (
+				4BFDE680288005B6009E5E32 /* Models */,
 				4BFDE670287FFB65009E5E32 /* AppDelegate.swift */,
 				4BFDE672287FFB65009E5E32 /* ContentView.swift */,
 				4BFDE674287FFB65009E5E32 /* Experience.rcproject */,
@@ -68,6 +77,17 @@
 				4BFDE679287FFB65009E5E32 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BFDE680288005B6009E5E32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4BFDE681288005C5009E5E32 /* gramophone.usdz */,
+				4BFDE683288005C5009E5E32 /* toy_biplane.usdz */,
+				4BFDE682288005C5009E5E32 /* toy_car.usdz */,
+				4BFDE684288005C5009E5E32 /* toy_drummer.usdz */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +149,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BFDE67A287FFB65009E5E32 /* Preview Assets.xcassets in Resources */,
+				4BFDE687288005C5009E5E32 /* toy_biplane.usdz in Resources */,
+				4BFDE686288005C5009E5E32 /* toy_car.usdz in Resources */,
+				4BFDE685288005C5009E5E32 /* gramophone.usdz in Resources */,
 				4BFDE677287FFB65009E5E32 /* Assets.xcassets in Resources */,
+				4BFDE688288005C5009E5E32 /* toy_drummer.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
